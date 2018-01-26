@@ -2,18 +2,19 @@
 body{
 	padding:5px;
 	margin:0px;
+	font-size:14px;
 }
-.word{ font-size:12px; }
-.melody{ background-color:#0FF; color:#fff; font-size:12px; }
+.word{ font-size:10px; }
+.melody{ background-color:#0FF; color:#fff; font-size:10px; }
 .title-box{ text-align:center; margin-bottom:20px; }
 .page{ width:1000px;  margin:0px auto; }
 .chordsA{
-	width:400px;
+	width:500px;
 	float:left;
 }
 
 .chordsB{
-	width:400px;
+	width:500px;
 	float:right;
 }
 h2{ font-size:16px;height: 30px; line-height: 30px; padding: 0px; margin:0px;}
@@ -33,7 +34,7 @@ ul li{
 	border:1px solid #666;
 	list-style:none;
 	height:40px;
-	width:80px;
+	width:90px;
 	display:flex;
 	flex-direction:row;
     justify-content:center;

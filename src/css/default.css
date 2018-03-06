@@ -4,6 +4,15 @@ body{
 	margin:0px;
 	font-size:14px;
 }
+.pattern{ 
+border:1px dashed #999;
+border-radius:15px;
+width:380px;
+font-size:12px; 
+margin:0px auto;
+margin-top:10px; font-style:italic;
+text-align:center;
+}
 .word{ font-size:10px; }
 .melody{ background-color:#0FF; color:#fff; font-size:10px; }
 .title-box{ text-align:center; margin-bottom:20px; }

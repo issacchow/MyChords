@@ -4,6 +4,57 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>喜欢你 Chords</title>
 <link rel="stylesheet" type="text/css" href="css/default.css">
+<script type="text/javascript" src="js/extend.js"></script>
+<script type="text/javascript">
+  
+  window.onload = function(){
+
+
+
+    var def = {
+       root : true,
+       sub :  {
+          p : 1,
+          p2: 2
+       }
+    };
+
+    var arg = {
+      root : false,
+      sub :  {
+          p : 'aa'
+       }
+    };
+
+
+
+
+
+    var ext = $.extend(true,def,arg);
+    console.log(ext);
+
+return;
+
+var object1 = {
+  apple: 0,
+  banana: { weight: 52, price: 100 },
+  cherry: 97
+};
+var object2 = {
+  apple : 1,
+  banana: { price: 200 },
+  durian: 100
+};
+ 
+// Merge object2 into object1
+$.extend( object1, object2 );
+
+console.dir(object1);
+
+return;
+
+  };
+</script>
 </head>
 
 <body>
